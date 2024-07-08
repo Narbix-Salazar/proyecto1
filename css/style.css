@@ -1,0 +1,144 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url('background.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed;
+}
+.logo {
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+form {
+    background: rgba(203, 220, 255, 0.37); 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.preview {
+    margin-top: 20px;
+}
+
+.preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+}
+h2, h3{
+    color: #000000;
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Espacio moderado entre los grupos de preguntas */
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group label {
+    flex: 0 0 150px; /* Ancho fijo para los labels */
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.form-group input, 
+.form-group select {
+    flex: 1; /* Ocupa el espacio restante */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group input[type="submit"], .form-group button {
+    background-color: #9370DB;
+    color: white;
+    border: none;
+    padding: 9px 13px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px; /* Espacio entre el botón y el menú desplegable */
+}
+.form-group input[type="submit"]:hover, .form-group button:hover {
+    background-color: #836FFF;
+}
+.hidden {
+    display: none;
+}
+.form-group .carrera-options {
+    display: none; /* Oculto por defecto */
+}
+.form-group .carrera-options label {
+    flex: 0 0 150px; /* Ancho fijo para los labels */
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+#factura {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #f0c2f7;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 18px;
+}
+#registro {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 18px;
+}
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#imagePreview img {
+    max-width: 100px;
+    height: auto;
+}
